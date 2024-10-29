@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* index.css */
+
+.container {
+  max-width: 800px; /* Limitar el ancho del contenedor */
+  margin: auto; /* Centrar el contenedor */
+  padding: 20px; /* Espaciado interno */
+  background-color: #e5d0de; /* Color de fondo suave */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  margin-top: 30px;
+}
+
+h1.text-center {
+  font-family: 'Courier New', sans-serif; /* Cambia la fuente a la nueva fuente */
+  color: #6f42c1; /* Color del título */
+  text-align: center; /* Centrar el texto */
+  margin-top: 20px; /* Espacio adicional si es necesario */
+  margin-bottom: 20px; /* Espacio inferior para separar del contenido */
+  font-weight: bold;
+}
+
+Button.buttonagregar{
+  font-family: 'Courier New', sans-serif;
+  background-color: #1b9115;
+  font-weight: bold;
+}
+
+Button.buttonagregar:hover {
+  background-color: #5a34a1; /* Color más oscuro al pasar el mouse */
+}
+
+.table {
+  background-color: #ffffff; /* Fondo blanco para la tabla */
+  border-radius: 10px; /* Bordes redondeados para la tabla */
+  overflow: hidden; /* Para que los bordes redondeados se vean bien */
+}
+
